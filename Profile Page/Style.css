@@ -1,0 +1,175 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.747);
+    color: white;
+    height:100px;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+    height: 40px;
+    width: 100px;
+    background-color: lightseagreen;
+    color: white;
+    border: 3px solid black;
+    font-size: 16px;
+    box-shadow: 5px 5px black;
+}
+
+
+.main {
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    margin: 0 auto;
+    gap: 40px;
+    /* background-color: aqua; */
+}
+
+
+
+
+.col-1 {
+    flex: 1;
+    /* background-color: bisque; */
+}
+
+.box-1 {
+    border: 2px gray solid;
+    height: 400px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.card-body {
+    padding: 20px;
+    /* gap: 10px; */
+}
+
+.usercard-header {
+    background-color: teal;
+    height: 130px;
+    margin-bottom: 60px;
+}
+
+.pfp-icon {
+    margin-top: 60px;
+    margin-left: 30px;
+    border: 4px white solid;
+    width: 120px;
+    border-radius: 50%;
+}
+
+.logo {
+    height: 20px;
+    /* padding: 10px; */
+    /* gap: 30px; */
+}
+
+
+.box-2 {
+    border: 2px gray solid;
+    height: 220px;
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.padded {
+    /* height: 100px; */
+    padding: 20px;
+    
+}
+
+.box-3 {
+    border: 2px gray solid;
+    /* height: 400px; */
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.box-4 {
+    border: 2px gray solid;
+    /* height: 400px; */
+    background-color: white;
+    margin-bottom: 40px;
+}
+
+.box-header {
+    background-color:rgba(0, 0, 0, 0.747);
+    color: white;
+    padding: 20px;
+}
+
+.number {
+    font-size: 1.2rem;
+    /* height: 20px */
+    background-color: gray;
+    border-radius: 15px;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.row {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    /* height: 100px; */
+    /* background-color: aquamarine; */
+}
+
+.row-image {
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+.row-left {
+    display: flex;
+    align-items: center;
+    /* background-color: blueviolet; */
+
+}
+
+.row-image-2 {
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.more {
+    background-color: white;
+    padding: 10px;
+    border: 2px solid gray;
+}
+
+
+
